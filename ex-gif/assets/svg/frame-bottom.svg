@@ -1,0 +1,10 @@
+<svg width="100%" height="30" viewBox="0 0 1000 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="g" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M0,0 L20,26 L980,26 L1000,0" fill="none" stroke="#4fe3ff" stroke-width="1.2" opacity="0.5" filter="url(#g)"/>
+  <text x="500" y="20" text-anchor="middle" font-family="Consolas, monospace" font-size="10" fill="#6f83a8" letter-spacing="2">END OF FEED — DROP FILES TO EXTEND</text>
+</svg>
